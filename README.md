@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Steps to run
+
+Once downloaded extract the files into a folder.
+Place folder in a location where you can remember the path.
+Run CommandPrompt as an Administrator
+Navigate to project folder where you have the source code.
+Execute the following npm install command to install all the required npm packages.
+npm install
+Once all the npm packages are installed, open the project in Visual Studio Code.
+Open Integrated Terminal in Visual Studio Code by clicking on "View" menu and then "Integrated Terminal"
+Execute the following command to install/start JSON SERVER
+npm install -g json-server
+json-server --watch db.json
+Now in the command prompt window or in another Visual Studio Code integrated terminal execute the following command to run the project
+ng s -o
